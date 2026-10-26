@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BURAS K Catering Services | Event Catering</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">
+            BURAS K
+            <span>CATERING SERVICES</span>
+        </a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#services">Our Services</a>
+            <a href="#booking">Book Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">EXCELLENCE IN EVERY SERVICE</p>
+
+                <h1>Making Your Special Occasions <span>Unforgettable.</span></h1>
+
+                <p class="hero-text">
+                    Delicious meals, quality service and beautiful food
+                    presentations for your most important moments.
+                </p>
+
+                <a href="#booking" class="gold-btn">
+                    Book Our Services
+                </a>
+            </div>
+        </section>
+
+        <section class="services section" id="services">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT WE OFFER</p>
+                <h2>Our Catering Services</h2>
+                <p>Tell us your occasion. We will help you plan the catering.</p>
+            </div>
+
+            <div class="service-grid">
+                <article class="service-card">
+                    <div class="service-icon">💍</div>
+                    <h3>Traditional Marriage</h3>
+                    <p>
+                        Delicious meals and catering for your
+                        traditional marriage ceremony.
+                    </p>
+                    <button class="service-btn" data-service="Traditional Marriage">
+                        Book This Service
+                    </button>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">🥂</div>
+                    <h3>Wedding</h3>
+                    <p>
+                        Make your special day memorable with
+                        our service for your wedding celebration.
+                    </p>
+                    <button class="service-btn" data-service="Wedding">
+                        Book This Service
+                    </button>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">🕊️</div>
+                    <h3>Burial Reception</h3>
+                    <p>
+                        Thoughtful catering arrangements for
+                        burial ceremonies and family gatherings.
+                    </p>
+                    <button class="service-btn" data-service="Burial Reception">
+                        Book This Service
+                    </button>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">🍽️</div>
+                    <h3>Indoor Catering</h3>
+                    <p>
+                        Food preparation and catering for
+                        intimate gatherings and indoor events.
+                    </p>
+                    <button class="service-btn" data-service="Indoor Catering">
+                        Book This Service
+                    </button>
+                </article>
+            </div>
+        </section>
+
+        <section class="booking-section section" id="booking">
+            <div class="section-heading">
+                <p class="eyebrow">LET US SERVE YOU</p>
+                <h2>Book Our Catering Services</h2>
+                <p>
+                    Complete the form below to send your booking
+                    request directly to our WhatsApp.
+                </p>
+            </div>
+
+            <form id="bookingForm">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="customerName">Full Name *</label>
+                        <input
+                            type="text"
+                            id="customerName"
+                            placeholder="Enter your full name"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="customerPhone">Phone Number *</label>
+                        <input
+                            type="tel"
+                            id="customerPhone"
+                            placeholder="Enter your phone number"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="occasion">Occasion *</label>
+                        <select id="occasion" required>
+                            <option value="">Select an occasion</option>
+                            <option value="Traditional Marriage">Traditional Marriage</option>
+                            <option value="Wedding">Wedding</option>
+                            <option value="Burial Reception">Burial Reception</option>
+                            <option value="Indoor Catering">Indoor Catering</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="eventDate">Event Date *</label>
+                        <input type="date" id="eventDate" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="eventLocation">Event Location *</label>
+                        <input
+                            type="text"
+                            id="eventLocation"
+                            placeholder="Where will the event hold?"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="guestCount">Number of Guests *</label>
+                        <input
+                            type="number"
+                            id="guestCount"
+                            min="1"
+                            placeholder="e.g. 100"
+                            required
+                        >
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="specialRequest">Special Requests (Optional)</label>
+                    <textarea
+                        id="specialRequest"
+                        rows="4"
+                        placeholder="Tell us about your menu preferences or other needs..."
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                    Send Booking Request via WhatsApp
+                </button>
+
+                <p class="form-note">
+                    Your request will open in WhatsApp for you to send.
+                    Your booking is not confirmed until we respond.
+                </p>
+            </form>
+        </section>
+
+        <section class="contact-section section" id="contact">
+            <p class="eyebrow">WE LOOK FORWARD TO SERVING YOU</p>
+            <h2>Let's Make Your Occasion Special</h2>
+
+            <p>
+                <strong>Call / WhatsApp:</strong>
+                <a href="tel:08068841271">08068841271</a>
+            </p>
+
+            <p>
+                <strong>Alternative Number:</strong>
+                <a href="tel:09155716921">09155716921</a>
+            </p>
+
+            <p>
+                <strong>Address:</strong>
+                No. 21 Chief Amadi Street, off Police Post,
+                Eliozu, Rumodumaya, Port Harcourt.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 BURAS K Catering Services. All rights reserved.</p>
+        <p>Delicious meals. Beautiful occasions.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
